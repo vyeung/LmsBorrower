@@ -57,7 +57,7 @@ public class BorrowerController {
 			throw new NotFoundException("Check out", "library branch", loan.getBranchId());
 		}
 		else if(!borrowerService.loanExists(cardNo, loan.getBranchId(), loan.getBookId())) {
-			throw new NotFoundException("Check out", "book loan", loan.getBookId());
+			throw new NotFoundException("Check out", "book", loan.getBookId());
 		}
 		int noOfCopies = borrowerService.getNoOfCopies(loan.getBookId(), loan.getBranchId());
 		if(noOfCopies < 1) {
