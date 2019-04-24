@@ -1,4 +1,4 @@
-package com.st.lms.exception;
+package com.st.il.borrowerapp.exception;
 
 public class ApiError {
 

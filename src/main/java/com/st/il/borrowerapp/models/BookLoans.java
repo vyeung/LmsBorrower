@@ -1,4 +1,4 @@
-package com.st.lms.models;
+package com.st.il.borrowerapp.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

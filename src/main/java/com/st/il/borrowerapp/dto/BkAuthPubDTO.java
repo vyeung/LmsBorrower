@@ -1,4 +1,4 @@
-package com.st.lms.dto;
+package com.st.il.borrowerapp.dto;
 
 public class BkAuthPubDTO {
 

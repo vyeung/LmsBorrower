@@ -1,4 +1,4 @@
-package com.st.lms.utils;
+package com.st.il.borrowerapp.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

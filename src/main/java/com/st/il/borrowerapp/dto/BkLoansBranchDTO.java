@@ -1,9 +1,9 @@
-package com.st.lms.dto;
+package com.st.il.borrowerapp.dto;
 
 import java.util.List;
 
-import com.st.lms.models.BookLoans;
-import com.st.lms.models.LibraryBranch;
+import com.st.il.borrowerapp.models.BookLoans;
+import com.st.il.borrowerapp.models.LibraryBranch;
 
 public class BkLoansBranchDTO {
 	

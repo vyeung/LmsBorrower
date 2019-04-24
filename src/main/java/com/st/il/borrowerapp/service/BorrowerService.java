@@ -1,18 +1,18 @@
-package com.st.lms.service;
+package com.st.il.borrowerapp.service;
 
-import com.st.lms.dao.*;
-import com.st.lms.dto.BkCopiesDTO;
-import com.st.lms.dto.BkLoansBkAuthDTO;
-import com.st.lms.dto.BkLoansBranchDTO;
-import com.st.lms.models.*;
-import com.st.lms.utils.DateCalculations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.st.il.borrowerapp.dao.*;
+import com.st.il.borrowerapp.dto.BkCopiesDTO;
+import com.st.il.borrowerapp.dto.BkLoansBkAuthDTO;
+import com.st.il.borrowerapp.dto.BkLoansBranchDTO;
+import com.st.il.borrowerapp.models.*;
+import com.st.il.borrowerapp.utils.DateCalculations;
+
 import java.sql.Date;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 
 @Service

@@ -1,15 +1,16 @@
-package com.st.lms.controller;
+package com.st.il.borrowerapp.controller;
 
-import com.st.lms.dto.BkLoansBkAuthDTO;
-import com.st.lms.dto.BkLoansBranchDTO;
-import com.st.lms.exception.BadRequestException;
-import com.st.lms.exception.NotFoundException;
-import com.st.lms.models.BookLoans;
-import com.st.lms.service.BorrowerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.st.il.borrowerapp.dto.BkLoansBkAuthDTO;
+import com.st.il.borrowerapp.dto.BkLoansBranchDTO;
+import com.st.il.borrowerapp.exception.BadRequestException;
+import com.st.il.borrowerapp.exception.NotFoundException;
+import com.st.il.borrowerapp.models.BookLoans;
+import com.st.il.borrowerapp.service.BorrowerService;
 
 import java.util.List;
 

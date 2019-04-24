@@ -1,4 +1,4 @@
-package com.st.lms.exception;
+package com.st.il.borrowerapp.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
